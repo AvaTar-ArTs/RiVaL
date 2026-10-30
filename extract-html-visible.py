@@ -3,8 +3,13 @@ from html.parser import HTMLParser
 import collections
 import hashlib
 import json
+import sys
 
-source = Path('/Users/steven/Downloads/making-of-RiVaL (1).html')
+# Usage: python3 -I extract-html-visible.py "path/to/making-of-RiVaL (1).html"
+# v1: source = Path('<local Downloads path>/making-of-RiVaL (1).html')
+if len(sys.argv) != 2:
+    sys.exit('usage: python3 -I extract-html-visible.py "path/to/making-of-RiVaL (1).html"')
+source = Path(sys.argv[1])
 out = Path(__file__).resolve().parent / 'rival-source-review'
 
 class Reader(HTMLParser):
