@@ -46,3 +46,23 @@ never replaced: a revision adds a new file or artboard beside the old one.
   - verification of the other agent's report
   - v1/v2 design decisions
   - swarm status, open items, and what was not checked
+
+## 2026-10-29 (after the rival swarm)
+
+### Added
+- **v3** `rival-design/project/Main-v3.dc.html` beside v1/v2 (both unchanged); canvas.json gets a third board.
+  - Owner quotes are verbatim, spelling included, with cuts marked "…". All 11 were checked against the source by script.
+  - Assistant wording that read as the owner's is removed. This includes the "sparring" quote, "started as a rival",
+    "roles stay where they are" and "agents are the built-in".
+  - Item 56 is quoted with both readings left open.
+  - The experiment statuses now match the repo.
+  - New sections: "Open" (owner decisions) and a no-affiliation footer.
+- `rival-design/docs/2026-10-29-three-way-comparison.md`: compares A (commit 2108945), B (GitHub @ f8afb36) and C (the swarm),
+  and corrects the first findings doc.
+- `export-full-transcript.py`: renders the full session log plus subagent logs to Markdown. `/export` only covers the conversation after compaction.
+  It writes the full transcript to `rival-source-review/full-transcript-2026-10-29.md` (untracked; private).
+
+### Corrected (recorded here; the earlier document is unchanged)
+- The repo was written and pushed by ChatGPT through the owner's GitHub connector, not by Cindy.
+- The repo has 9 files, not 10.
+- Experiments 02–05 are outlined and queued, not "not started".

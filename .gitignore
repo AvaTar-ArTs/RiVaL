@@ -10,3 +10,4 @@
 !rival-design/project/canvas.json
 !rival-design/docs/
 !rival-design/docs/*.md
+!export-full-transcript.py
