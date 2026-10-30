@@ -72,4 +72,4 @@ build/
 !WAS-AND-TO-BE.md
 !outside-reference.py
 !reference/
-!reference/*.json
+!reference/outside-manifest-*.json
