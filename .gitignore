@@ -1,0 +1,10 @@
+# Allowlist: track only what is listed below. Source copies, transcripts and
+# extractions stay local (private paths; see RiVaL-export-guide.md).
+*
+!.gitignore
+!CHANGELOG.md
+!extract-html-visible.py
+!rival-design/
+!rival-design/project/
+!rival-design/project/*.dc.html
+!rival-design/project/canvas.json
