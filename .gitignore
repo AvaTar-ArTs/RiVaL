@@ -73,3 +73,7 @@ build/
 !outside-reference.py
 !reference/
 !reference/outside-manifest-*.json
+!coverart-arcana/
+!coverart-arcana/*.py
+!coverart-arcana/*.html
+!coverart-arcana/*.png
