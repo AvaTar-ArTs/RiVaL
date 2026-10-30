@@ -139,3 +139,16 @@ cindy.app capture). SOURCE
   the content of PI_FOUNDATIONS.md.
 - The evidence reviewer's match of items 59/67 against the local Cindy session log was not re-checked
   by the coordinator.
+
+## 8. Late additions (from `compare-evidence.md`)
+
+- **The handoff's structural claims hold** (HTML copy, entry count, handoff update, earlier versions
+  kept), but its content still has two errors:
+  - it calls "sparring" the owner's word;
+  - it says the pasted Cindy text came "from this conversation".
+  The handoff is not edited here. SOURCE (evidence report); not re-checked by the coordinator.
+- **Repo text in the owner's voice.** The five-experiment programme doc and EXPERIMENT_01 contain
+  first-person instructions written by ChatGPT, such as "my local agents" and "until I direct
+  otherwise". These are published under the owner's account. This joins open item 7. SOURCE (evidence report)
+- **Coverage note.** For independence, the evidence reviewer did not read the other two reviewers'
+  reports; it used only what the coordinator relayed.
