@@ -35,3 +35,14 @@ never replaced: a revision adds a new file or artboard beside the old one.
 ### Not tracked in git (by design)
 - Source copies, transcripts and the HTML extraction contain private paths and are kept out of git.
   The export guide says not to publish the package without a privacy review.
+
+## 2026-10-29 (later)
+
+### Added
+- `rival-design/docs/2026-10-29-design-session-findings.md`: findings and reasoning to date. Covers:
+  - source identity
+  - authorship (who sent it vs who wrote it)
+  - GitHub repo check (`b0b0a73` confirmed)
+  - verification of the other agent's report
+  - v1/v2 design decisions
+  - swarm status, open items, and what was not checked

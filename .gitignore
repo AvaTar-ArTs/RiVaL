@@ -8,3 +8,5 @@
 !rival-design/project/
 !rival-design/project/*.dc.html
 !rival-design/project/canvas.json
+!rival-design/docs/
+!rival-design/docs/*.md
