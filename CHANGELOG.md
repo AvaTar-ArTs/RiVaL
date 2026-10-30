@@ -66,3 +66,17 @@ never replaced: a revision adds a new file or artboard beside the old one.
 - The repo was written and pushed by ChatGPT through the owner's GitHub connector, not by Cindy.
 - The repo has 9 files, not 10.
 - Experiments 02–05 are outlined and queued, not "not started".
+
+## 2026-10-29 (joined with the public repo)
+
+### Changed
+- `extract-html-visible.py` now takes the HTML path as an argument; the hard-coded local path is
+  kept only as a `# v1:` comment. Re-run on the same-hash copy: 77 items, 42 user / 35 assistant.
+- This history is merged with GitHub `AvaTar-ArTs/RiVaL` main (`f8afb36`, 9 commits) using
+  `--allow-unrelated-histories`. Nothing was rewritten and nothing was force-pushed.
+- `.gitignore` combines both: the local allowlist first (now also allowing `README.md` and `docs/`),
+  then the public repo's secret and runtime rules, so those still exclude anything above them.
+
+### Not changed
+- The repo's README, PHILOSOPHY, ARCHITECTURE and research docs are left as they were.
+  `rival-design/docs/2026-10-29-three-way-comparison.md` lists what the owner may want to revise there.
