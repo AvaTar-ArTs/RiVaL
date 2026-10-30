@@ -1,0 +1,911 @@
+{
+ "root": "RiVaL",
+ "generated": "2026-10-30T03:19:11+00:00",
+ "skipped_dirs": [
+  ".claude",
+  ".git",
+  ".tmp",
+  "__pycache__"
+ ],
+ "groups": {
+  "(root files)": {
+   "files": 20,
+   "bytes": 10190275,
+   "tracked": 5
+  },
+  "docs": {
+   "files": 7,
+   "bytes": 34640,
+   "tracked": 7
+  },
+  "export-content": {
+   "files": 1,
+   "bytes": 27217,
+   "tracked": 0
+  },
+  "export-handoff": {
+   "files": 6,
+   "bytes": 100854,
+   "tracked": 0
+  },
+  "export-knowledge": {
+   "files": 2,
+   "bytes": 6486,
+   "tracked": 0
+  },
+  "prior-export-family-reanalysis": {
+   "files": 14,
+   "bytes": 458672,
+   "tracked": 0
+  },
+  "prior-skills-ecosystem-handoff": {
+   "files": 1,
+   "bytes": 39098,
+   "tracked": 0
+  },
+  "rival-coverart": {
+   "files": 17,
+   "bytes": 4798692,
+   "tracked": 0
+  },
+  "rival-design": {
+   "files": 7,
+   "bytes": 75409,
+   "tracked": 6
+  },
+  "rival-source-review": {
+   "files": 13,
+   "bytes": 3247387,
+   "tracked": 0
+  },
+  "session-history-2026-10-29-through-225755": {
+   "files": 5,
+   "bytes": 15849676,
+   "tracked": 0
+  },
+  "source-backing-conversation": {
+   "files": 1,
+   "bytes": 1806830,
+   "tracked": 0
+  },
+  "source-backing-html-continuation": {
+   "files": 3,
+   "bytes": 254744,
+   "tracked": 0
+  },
+  "source-github-f8afb3657f90": {
+   "files": 11,
+   "bytes": 45262,
+   "tracked": 0
+  },
+  "source-reconstructed-research": {
+   "files": 1,
+   "bytes": 17373,
+   "tracked": 0
+  },
+  "source-share-conversation": {
+   "files": 4,
+   "bytes": 1762467,
+   "tracked": 0
+  },
+  "transcript": {
+   "files": 3,
+   "bytes": 1024532,
+   "tracked": 0
+  }
+ },
+ "files": [
+  {
+   "path": ".DS_Store",
+   "bytes": 12292,
+   "mtime": "2026-10-30T03:19:08+00:00",
+   "sha256": "789296498287d2fc3cf441f1342d82be247852e5910cddba193e970a788effbc",
+   "tracked": false
+  },
+  {
+   "path": ".gitignore",
+   "bytes": 1152,
+   "mtime": "2026-10-30T03:11:57+00:00",
+   "sha256": "12ff8c6754cd5de1c8e8e0079925328ce14de93c825221bf4dd7a4e40776c3ee",
+   "tracked": true
+  },
+  {
+   "path": "CHANGELOG.md",
+   "bytes": 4765,
+   "mtime": "2026-10-30T03:12:07+00:00",
+   "sha256": "4e80ed6ecacd08ace32cd0b092a7061e9f02f17daf814371abe2950ff83ac0a3",
+   "tracked": true
+  },
+  {
+   "path": "README.md",
+   "bytes": 2120,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "48c4be16c4af2560cdd47202487332be1972eabaac0d12fb29006f96d8873bf3",
+   "tracked": true
+  },
+  {
+   "path": "RiVaL landing page-html.zip",
+   "bytes": 205108,
+   "mtime": "2026-10-30T02:49:13+00:00",
+   "sha256": "1a4d29ec0dc6b046f7da04f71722910eb3533123f6b7ed70f453ae1a46848f14",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL — Equal Partners.pdf",
+   "bytes": 1321121,
+   "mtime": "2026-10-30T02:49:04+00:00",
+   "sha256": "f36db3b975d5c2cf9590b3a5935790cff56bea5fdb548c994c58da37c40beaec",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL-export-guide.md",
+   "bytes": 2935,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "11a40b53b08fc0765d30499cc53e2daea18805cc8de09c7cf0f5f20e444c49c9",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL-export-manifest.json",
+   "bytes": 27268,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "fac69207b699d627f9150f591f78c7b2ecbe407620e1170c09344838ffc2c292",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL.zip",
+   "bytes": 1069542,
+   "mtime": "2026-10-30T02:30:37+00:00",
+   "sha256": "63d89e01fcd6e600e998f6b884f97258d7038e3b795ec129422edae63f6b8d10",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL_complete_research_export.zip",
+   "bytes": 17373,
+   "mtime": "2026-10-30T01:18:08+00:00",
+   "sha256": "503e45f8f1db681d0067595f899fbc8b719594f65472d44b5b4b51d741565e3c",
+   "tracked": false
+  },
+  {
+   "path": "RiVaL_hostinger_website.zip",
+   "bytes": 10686,
+   "mtime": "2026-10-30T02:56:03+00:00",
+   "sha256": "9b4e760d05fe62306e05b3f000a4bb4931455a793a48bc94ac2c8405b377444c",
+   "tracked": false
+  },
+  {
+   "path": "docs/ARCHITECTURE.md",
+   "bytes": 2703,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "18d0141cbbbc497e1cb4cd09bc53df758f076a89cde75c7dd5768d21684e0fdf",
+   "tracked": true
+  },
+  {
+   "path": "docs/PHILOSOPHY.md",
+   "bytes": 2117,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "38897a96834a0ad3e5653f1614cb7f4e887129acd6f10806c84a4438b3b6f9fa",
+   "tracked": true
+  },
+  {
+   "path": "docs/RESEARCH.md",
+   "bytes": 1603,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "0126b4c3556a1e1d4b6e6f7390ee104c0cbfa33b4e31988f49a870156d1ede31",
+   "tracked": true
+  },
+  {
+   "path": "docs/research/EXPERIMENT_01_CONTEXT_EFFICIENCY.md",
+   "bytes": 8254,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "d333d53e083b318d861e40c12e29437eb5f0a0ce85658ab299b5e3374a0148cb",
+   "tracked": true
+  },
+  {
+   "path": "docs/research/MIN_MAXERS_FIVE_SWARMS_PROGRAM.md",
+   "bytes": 11047,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "bce4bc94643a5188a2f902cf2743095f9bc777416627858254b578fc2456d8e6",
+   "tracked": true
+  },
+  {
+   "path": "docs/research/PI_FOUNDATIONS.md",
+   "bytes": 2893,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "fd76462d3104f71e56dfed2db5b3de406f49e9c9ed8da3ccb2d9cfe5755a9c73",
+   "tracked": true
+  },
+  {
+   "path": "docs/research/SWARM_REVERSE_ENGINEERING.md",
+   "bytes": 6023,
+   "mtime": "2026-10-30T03:11:49+00:00",
+   "sha256": "c8b627dfc9efac6eaa4cfcdab6aa2914192d7cdddf8aac47fec4aa0c2febc850",
+   "tracked": true
+  },
+  {
+   "path": "export-content/historical-assistant-drafted-investigation-charter.md",
+   "bytes": 27217,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "a1b35ea5dc0da123bc0d04e2ca1b03e9e445c792de4ff2bb2170b097e0af7d5a",
+   "tracked": false
+  },
+  {
+   "path": "export-full-transcript.py",
+   "bytes": 5718,
+   "mtime": "2026-10-30T03:06:14+00:00",
+   "sha256": "82ae072752bfaa7894721864cd5c849114af1e30972b1d7b221335c1be67a884",
+   "tracked": true
+  },
+  {
+   "path": "export-handoff/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T02:56:46+00:00",
+   "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+   "tracked": false
+  },
+  {
+   "path": "export-handoff/RiVaL-comprehension-and-reciprocal-review-handoff.md",
+   "bytes": 25252,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "2c7ff278dfc57c49a43a5a5c5c9eade77b0714c42f2858b41fb183c5760de733",
+   "tracked": false
+  },
+  {
+   "path": "export-handoff/RiVaL-comprehension-handoff-before-github-verification.md",
+   "bytes": 22734,
+   "mtime": "2026-10-30T02:48:37+00:00",
+   "sha256": "e9dc42ef66db1feb12155438212f44b15c2ab906f1d4c78a7ce6ce651493f161",
+   "tracked": false
+  },
+  {
+   "path": "export-handoff/RiVaL-comprehension-handoff-before-html-continuation.md",
+   "bytes": 17109,
+   "mtime": "2026-10-30T02:26:12+00:00",
+   "sha256": "4716b932c231c597efb372ecafe404f011d8efa9256b1f23c234b746f5651ff3",
+   "tracked": false
+  },
+  {
+   "path": "export-handoff/RiVaL-export-manifest-before-github-verification.json",
+   "bytes": 15822,
+   "mtime": "2026-10-30T02:48:37+00:00",
+   "sha256": "f5f5d655bac5f6440b6b7e2146573077c95961a45c8bd1d3462bf1cd1c2adb4a",
+   "tracked": false
+  },
+  {
+   "path": "export-handoff/RiVaL-export-manifest-before-html-continuation.json",
+   "bytes": 13789,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "5c34c7accb0b2c5825b900acfa37cc060caecf6f5bb748a03e4372b88653657c",
+   "tracked": false
+  },
+  {
+   "path": "export-knowledge/RiVaL-reciprocal-review-findings.md",
+   "bytes": 5365,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "b4d172de17bbcbf48bf03c5d1aa595d3b52b50c68291abee352c543a384a046b",
+   "tracked": false
+  },
+  {
+   "path": "export-knowledge/source-identity.json",
+   "bytes": 1121,
+   "mtime": "2026-10-30T02:18:29+00:00",
+   "sha256": "7eba799e7e85c4c616394cad309a33a4588756ff194926b618da528268a2a35b",
+   "tracked": false
+  },
+  {
+   "path": "extract-html-visible.py",
+   "bytes": 2949,
+   "mtime": "2026-10-30T03:11:30+00:00",
+   "sha256": "cdbbdf71b0aa459194e291bc36f5d53c1c6915cb09791fbdd9c6f4f4cdb64ebd",
+   "tracked": true
+  },
+  {
+   "path": "making-of-RiVaL (1).html",
+   "bytes": 246527,
+   "mtime": "2026-10-30T02:43:35+00:00",
+   "sha256": "21ccdcfabed340887b900f5598c956b855703e16e125a14cd6dbfb82fa66053f",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL (1).json",
+   "bytes": 1806830,
+   "mtime": "2026-10-30T02:12:10+00:00",
+   "sha256": "03fb26873daf8eab014160b257a8ae66a7a12ef9222252c5719c510b2da42f82",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL.html",
+   "bytes": 115045,
+   "mtime": "2026-10-30T01:46:42+00:00",
+   "sha256": "aa58b88a7d40589501536ae87a5baf3ef7259e7b3a7174b4665d65eb4e7f869c",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL.json",
+   "bytes": 1567242,
+   "mtime": "2026-10-30T01:46:29+00:00",
+   "sha256": "410e63dbaf5576435297f96b76c75e7a61d8fc9b81a29d08e40d095daf6bc5e8",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL.md",
+   "bytes": 74032,
+   "mtime": "2026-10-30T01:46:38+00:00",
+   "sha256": "92c29955ba1ba221069c7bf728e5a186f1b2885bf63f322e201a024f47b874ae",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL2.html",
+   "bytes": 269409,
+   "mtime": "2026-10-30T03:06:46+00:00",
+   "sha256": "9532656bdb6eebfce2b5b507d78269b27345ee34ce4011034ac910471af01882",
+   "tracked": false
+  },
+  {
+   "path": "making-of-RiVaL2.json",
+   "bytes": 3428161,
+   "mtime": "2026-10-30T03:06:54+00:00",
+   "sha256": "b5ff474b3ccfc957323fa042dae87251e196b0337dea9da16db1dccb1576fb34",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T02:28:27+00:00",
+   "sha256": "37826bca935c309bd7537f43f1e6313a880ff2b5b18bf60b36c50519fff6b020",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/README.md",
+   "bytes": 1137,
+   "mtime": "2026-10-30T02:02:00+00:00",
+   "sha256": "2dc3c97248996028299e5adfffa2b71473ef4e97f771cb85c8c9c0e67f00a442",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/audit-evidence.jsonl",
+   "bytes": 382156,
+   "mtime": "2026-10-30T01:52:12+00:00",
+   "sha256": "ba508b470016f009e75b9613f07673314ea76b56c572d6d032106262ce2537dd",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/export-family-review.md",
+   "bytes": 18678,
+   "mtime": "2026-10-30T02:01:04+00:00",
+   "sha256": "b8ea13da25241cd470d39b661c81f7d61e7173af2924aeafaf45dbe169b6e6ad",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/diagnostic-results.json",
+   "bytes": 2174,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "32529593fe0295845c8dc1547731f482f1ec205438a1fd6303e46f4ec27d562c",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/synthetic-codex/rollout-fixture.jsonl",
+   "bytes": 180,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "31ff067118ddc102d22cda8a9db29517b04badaa294195b1ee3a347634eaaf8f",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/synthetic-exports/.exported_sessions.json",
+   "bytes": 92,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "7c6217b886f98aea033a0df356c4846779e61db96d021a4233ebf405015bfddc",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/synthetic-exports/2026-10-29_fixture-session_synthetic-export-request.md",
+   "bytes": 293,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "a30858a34201654940d1784533f2c7502d59a79b4a6659c2f8754f46686e1b79",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/synthetic-sessions/fixture-session/fixture.messages.json",
+   "bytes": 159,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "be904609e12aa0370d73975ebfcf6ff7f3fe95f1fdefaf82e14c88a33eee4c7d",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/fixtures/synthetic-sessions/fixture-session/meta.json",
+   "bytes": 71,
+   "mtime": "2026-10-30T01:49:22+00:00",
+   "sha256": "e21a0996ca545c44bf33878e87b12262ae9c56552d69673167af578b3177ffd6",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/handoff-before-export-family-reanalysis.md",
+   "bytes": 35638,
+   "mtime": "2026-10-30T01:39:07+00:00",
+   "sha256": "cbc1cf7e0bffd4973563f645100a82439a0c3a8e15568823a2e088b070d42df0",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/source-measurements.json",
+   "bytes": 2638,
+   "mtime": "2026-10-30T01:52:15+00:00",
+   "sha256": "fc2f1fc5663426fea8c6b80465a2aadb7f81d008606dc4920af845d263371a21",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/tools/verify_export_methods.py",
+   "bytes": 7816,
+   "mtime": "2026-10-30T01:49:17+00:00",
+   "sha256": "f03d340f69b1c560ebba7a2ff5284a3b4b1dd5634ef9cddf1b837ea94b32d13b",
+   "tracked": false
+  },
+  {
+   "path": "prior-export-family-reanalysis/verification.json",
+   "bytes": 1492,
+   "mtime": "2026-10-30T02:02:00+00:00",
+   "sha256": "50b82196999335db07bd830e3132c212dff2b53a30934e43112527f611e7f672",
+   "tracked": false
+  },
+  {
+   "path": "prior-skills-ecosystem-handoff/2026-10-29-211123-skills-ecosystem-learning-session-handoff.md",
+   "bytes": 39098,
+   "mtime": "2026-10-30T02:10:53+00:00",
+   "sha256": "f4ff6c2922eeae449c3df02d08bb77878ee00664315cafa80224e4c1ede24374",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T03:16:10+00:00",
+   "sha256": "afe654368072b207bb853f910afa2ed2045c4027dd24c508f284a902ea1f2e0b",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-1-seam-3000.png",
+   "bytes": 2125462,
+   "mtime": "2026-10-30T03:15:32+00:00",
+   "sha256": "5e160db54faf0696e0c4e6b406d05a5cfa0633ee06b4d134a3af3c224479a7f2",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-1-seam-v2-3000.png",
+   "bytes": 2123428,
+   "mtime": "2026-10-30T03:16:00+00:00",
+   "sha256": "75faa475772b07b002303cdaafe3c7eaf66353df06eef274784497c4a8ab0c9c",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-1-seam-v2.html",
+   "bytes": 2266,
+   "mtime": "2026-10-30T03:15:57+00:00",
+   "sha256": "5e1feb15291e17104cc76ea65347b46b1a42957975171d30cc85c43a1452f7a5",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-1-seam.html",
+   "bytes": 2267,
+   "mtime": "2026-10-30T03:15:12+00:00",
+   "sha256": "990cc7aa5e97fa8e0e3801835225c47300ebd461397a4db96de8001391b889ab",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-2-opposites-3000.png",
+   "bytes": 107224,
+   "mtime": "2026-10-30T03:15:34+00:00",
+   "sha256": "419336de503f5c00be1775a4e4f2a83fb47dbae253ff967e18523d4e665c1745",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-2-opposites-v2-3000.png",
+   "bytes": 129560,
+   "mtime": "2026-10-30T03:16:01+00:00",
+   "sha256": "454f8900558c2769e34b91bcb7c84509ce8f8e0b247d559886a73b7daa45ffe9",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-2-opposites-v2.html",
+   "bytes": 1744,
+   "mtime": "2026-10-30T03:15:57+00:00",
+   "sha256": "5fdb4d71149c541a4b0a3527acc75b9fa585db291efda8151a99932f4e1eb49d",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-2-opposites.html",
+   "bytes": 1743,
+   "mtime": "2026-10-30T03:15:12+00:00",
+   "sha256": "1a528826887487e785ea443d1fa9b122b52fe1127659d351b1545a3509bae34f",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-3-rooms-3000.png",
+   "bytes": 141277,
+   "mtime": "2026-10-30T03:15:35+00:00",
+   "sha256": "e9ba5020db65a97150d817b848b6f440807040d416d5734236bf034bcdad8f0e",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-3-rooms-v2-3000.png",
+   "bytes": 141061,
+   "mtime": "2026-10-30T03:16:03+00:00",
+   "sha256": "01ef9c8ed134359ff7ce082e972d2ed9507be4f3c74201c54bcf78f129169bac",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-3-rooms-v2.html",
+   "bytes": 2961,
+   "mtime": "2026-10-30T03:15:57+00:00",
+   "sha256": "a950e659d3110f4c6aaad46e0d1c7919a63c6083acc7151478402b720d5fd6ac",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/Cover-3-rooms.html",
+   "bytes": 3110,
+   "mtime": "2026-10-30T03:15:12+00:00",
+   "sha256": "f8728e91bf7168d3e7de08302cb29df30cdb9a771f71fc1118eca9a824c5a203",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/README.md",
+   "bytes": 1773,
+   "mtime": "2026-10-30T03:17:00+00:00",
+   "sha256": "b530eaec8f88e958ea9123d68cf6b203107d93215419d276f03eb01aecf64e68",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/dc-source/Cover-1-seam.dc.html",
+   "bytes": 2791,
+   "mtime": "2026-10-30T03:14:52+00:00",
+   "sha256": "a296c1090f37b1e9cc840c86a1660b15a03d42f11242147e54f0923266b283b3",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/dc-source/Cover-2-opposites.dc.html",
+   "bytes": 2255,
+   "mtime": "2026-10-30T03:14:52+00:00",
+   "sha256": "d5b7f1270c9f623d545df51fdd758d3cc72a437b2c8d0c95905747fe07901d20",
+   "tracked": false
+  },
+  {
+   "path": "rival-coverart/dc-source/Cover-3-rooms.dc.html",
+   "bytes": 3622,
+   "mtime": "2026-10-30T03:14:52+00:00",
+   "sha256": "7e71fb52b583b730dd2cde8e4fae511411915aa7b3e72ba2e382029ec20e6536",
+   "tracked": false
+  },
+  {
+   "path": "rival-design/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T03:15:05+00:00",
+   "sha256": "14f0a2b78caf1775963427eb9e99d5392bc5ede7817c5693e34961943b0c4908",
+   "tracked": false
+  },
+  {
+   "path": "rival-design/docs/2026-10-29-design-session-findings.md",
+   "bytes": 9326,
+   "mtime": "2026-10-30T02:55:10+00:00",
+   "sha256": "1d28bcc006859cdf7554d6b078d305e957667e535c269ac2b28e97bf94cb0746",
+   "tracked": true
+  },
+  {
+   "path": "rival-design/docs/2026-10-29-three-way-comparison.md",
+   "bytes": 9071,
+   "mtime": "2026-10-30T03:09:26+00:00",
+   "sha256": "f5d424bb8c42394c28fd3b74ce184c93ccc6aa28994ed8eb53deb5bd3dbe72fc",
+   "tracked": true
+  },
+  {
+   "path": "rival-design/project/Main-v2.dc.html",
+   "bytes": 16185,
+   "mtime": "2026-10-30T02:51:59+00:00",
+   "sha256": "9a9dbac4685011ce1b859a4ee717c1f8f9229f10b7e9c983f23a1aa76e468b67",
+   "tracked": true
+  },
+  {
+   "path": "rival-design/project/Main-v3.dc.html",
+   "bytes": 19193,
+   "mtime": "2026-10-30T03:08:21+00:00",
+   "sha256": "64ba16374635308a1e9b66a4914202a28367943ac1937ca4fcb01bfdeee2b9a7",
+   "tracked": true
+  },
+  {
+   "path": "rival-design/project/Main.dc.html",
+   "bytes": 14899,
+   "mtime": "2026-10-30T02:48:40+00:00",
+   "sha256": "16c1bba08c6fd46b971193a68172210df997d30e09d9e49424446ae751e21107",
+   "tracked": true
+  },
+  {
+   "path": "rival-design/project/canvas.json",
+   "bytes": 587,
+   "mtime": "2026-10-30T03:15:04+00:00",
+   "sha256": "cd964a13971ea1891b32d00638515e472a64ac25edde50f1c1a41cffba445cd5",
+   "tracked": true
+  },
+  {
+   "path": "rival-source-review/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T03:05:07+00:00",
+   "sha256": "d1f3261d2c75606ceee7f9fee0c8b08a98584288271700b852fdb4c6c8d63e88",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/full-transcript-2026-10-29-v2.md",
+   "bytes": 895555,
+   "mtime": "2026-10-30T03:10:14+00:00",
+   "sha256": "cf5f69a48991ac2b70464c3d85075e93b7c5366a1d6f74edc0d5bfb7b3de3dcc",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/full-transcript-2026-10-29-v3.md",
+   "bytes": 912519,
+   "mtime": "2026-10-30T03:12:51+00:00",
+   "sha256": "e2d43bb1133fe217203b054a7ff1071266030c85c60dab22f4cf05ec55f7ed8f",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/full-transcript-2026-10-29.md",
+   "bytes": 844120,
+   "mtime": "2026-10-30T03:06:31+00:00",
+   "sha256": "b28cd82b574488fd8199d0de22014132e33fa41cdd3c6efd6f6553beacd1a5d9",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/html-visible-dialogue.md",
+   "bytes": 169460,
+   "mtime": "2026-10-30T03:11:31+00:00",
+   "sha256": "bb4a91e12aabc4b44bf086ca42d2236fa1fa0cadfa78e199a8c3df0d5d727d79",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/html-visible-records.json",
+   "bytes": 177956,
+   "mtime": "2026-10-30T03:11:31+00:00",
+   "sha256": "8580d1a3aa14184a9accd6a204344e90a046e311bb1e6f2193c82cfcdf1ab09c",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/compare-counter.md",
+   "bytes": 18694,
+   "mtime": "2026-10-30T03:04:07+00:00",
+   "sha256": "20c1963164e8958d6dc84ece2d2c007574b95df0aa1bef54bef7c19bca8eb94e",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/compare-evidence.md",
+   "bytes": 18603,
+   "mtime": "2026-10-30T03:05:07+00:00",
+   "sha256": "cdcb1c5cd3804cf3f08e64bc87478c2aa372dc5c3d9a6ede682b0a84d83a96fb",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/compare-meaning.md",
+   "bytes": 16690,
+   "mtime": "2026-10-30T03:03:35+00:00",
+   "sha256": "680d10aa3dbb1bb63bba97da9ff1da0ccf293fca704e4954c27fd1545e95e547",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/rival-counter.md",
+   "bytes": 32670,
+   "mtime": "2026-10-30T02:59:40+00:00",
+   "sha256": "842db34d6059b95eba70881389201099082a3a21284a39b5f2397f25ae85dde0",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/rival-evidence.md",
+   "bytes": 24620,
+   "mtime": "2026-10-30T03:02:12+00:00",
+   "sha256": "a2f7c3482d9a770aafaa575aa750c76472a9e774197bcbafe1e2f05b2e62b377",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/swarm/rival-meaning.md",
+   "bytes": 45465,
+   "mtime": "2026-10-30T02:58:02+00:00",
+   "sha256": "b36629f01bedf6e3bc7414d70878f8790335c6fee45c09a01a579387c9c17739",
+   "tracked": false
+  },
+  {
+   "path": "rival-source-review/transcript.txt",
+   "bytes": 84887,
+   "mtime": "2026-10-30T03:05:16+00:00",
+   "sha256": "4b597ab68d32beee69b3abc9618ecf0daea3d1f486d69a97af385eba3a08e398",
+   "tracked": false
+  },
+  {
+   "path": "session-history-2026-10-29-through-225755/Cindy-RiVaL-session-history.json",
+   "bytes": 8015099,
+   "mtime": "2026-10-30T03:07:51+00:00",
+   "sha256": "4addf2afa6d71a2f67c4072dbe946987b739c6f2ebe92f777d8b9cc340fed170",
+   "tracked": false
+  },
+  {
+   "path": "session-history-2026-10-29-through-225755/Cindy-RiVaL-session-history.md",
+   "bytes": 7827278,
+   "mtime": "2026-10-30T03:07:51+00:00",
+   "sha256": "50383b9c4759658635da3d018c70d0e0e0631b9883f2fcb049caedf37f8925d0",
+   "tracked": false
+  },
+  {
+   "path": "session-history-2026-10-29-through-225755/coverage.json",
+   "bytes": 4846,
+   "mtime": "2026-10-30T03:07:51+00:00",
+   "sha256": "4701d137fbd5bf91f2e707e68dc1f282b5aec47ae30f680c0c7fe02e48d3e71e",
+   "tracked": false
+  },
+  {
+   "path": "session-history-2026-10-29-through-225755/redactions.json",
+   "bytes": 1049,
+   "mtime": "2026-10-30T03:07:51+00:00",
+   "sha256": "4e98913ef7be4dd61b3776bd236c5481d2f276953e7db8f43f82c43d71799eda",
+   "tracked": false
+  },
+  {
+   "path": "session-history-2026-10-29-through-225755/verification.json",
+   "bytes": 1404,
+   "mtime": "2026-10-30T03:09:40+00:00",
+   "sha256": "a36a4c345b13bfd05f8f580fefa430fd5563767e5b9d76586cc1fdca35d7544d",
+   "tracked": false
+  },
+  {
+   "path": "source-backing-conversation/making-of-RiVaL (1).json",
+   "bytes": 1806830,
+   "mtime": "2026-10-30T02:12:10+00:00",
+   "sha256": "03fb26873daf8eab014160b257a8ae66a7a12ef9222252c5719c510b2da42f82",
+   "tracked": false
+  },
+  {
+   "path": "source-backing-html-continuation/html-json-user-alignment.json",
+   "bytes": 5344,
+   "mtime": "2026-10-30T02:46:18+00:00",
+   "sha256": "b58916f00554b68a88d900419ae30ad86dcd6e8f9a16ab94ddf023036b3316ac",
+   "tracked": false
+  },
+  {
+   "path": "source-backing-html-continuation/making-of-RiVaL (1).html",
+   "bytes": 246527,
+   "mtime": "2026-10-30T02:43:35+00:00",
+   "sha256": "21ccdcfabed340887b900f5598c956b855703e16e125a14cd6dbfb82fa66053f",
+   "tracked": false
+  },
+  {
+   "path": "source-backing-html-continuation/source-comparison-and-review.md",
+   "bytes": 2873,
+   "mtime": "2026-10-30T02:48:37+00:00",
+   "sha256": "eed346360db86bc857606101ecc11c5f1484c063c53f216bed57d9651ac11de8",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/.gitignore",
+   "bytes": 657,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "35216ff5b002aa0f3adac2209d1305efdbedf58d0247bf80d83e0a447804c291",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/README.md",
+   "bytes": 2120,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "48c4be16c4af2560cdd47202487332be1972eabaac0d12fb29006f96d8873bf3",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/ARCHITECTURE.md",
+   "bytes": 2703,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "18d0141cbbbc497e1cb4cd09bc53df758f076a89cde75c7dd5768d21684e0fdf",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/PHILOSOPHY.md",
+   "bytes": 2117,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "38897a96834a0ad3e5653f1614cb7f4e887129acd6f10806c84a4438b3b6f9fa",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/RESEARCH.md",
+   "bytes": 1603,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "0126b4c3556a1e1d4b6e6f7390ee104c0cbfa33b4e31988f49a870156d1ede31",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/research/EXPERIMENT_01_CONTEXT_EFFICIENCY.md",
+   "bytes": 8254,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "d333d53e083b318d861e40c12e29437eb5f0a0ce85658ab299b5e3374a0148cb",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/research/MIN_MAXERS_FIVE_SWARMS_PROGRAM.md",
+   "bytes": 11047,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "bce4bc94643a5188a2f902cf2743095f9bc777416627858254b578fc2456d8e6",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/research/PI_FOUNDATIONS.md",
+   "bytes": 2893,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "fd76462d3104f71e56dfed2db5b3de406f49e9c9ed8da3ccb2d9cfe5755a9c73",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/docs/research/SWARM_REVERSE_ENGINEERING.md",
+   "bytes": 6023,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "c8b627dfc9efac6eaa4cfcdab6aa2914192d7cdddf8aac47fec4aa0c2febc850",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/github-source-manifest.json",
+   "bytes": 4873,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "eb5f50fa98ab13d98dea7fdb1298f0d46b468ad4dd20b6624605b1a7fbf3006b",
+   "tracked": false
+  },
+  {
+   "path": "source-github-f8afb3657f90/source-reconciliation.md",
+   "bytes": 2972,
+   "mtime": "2026-10-30T02:55:52+00:00",
+   "sha256": "d4c5575aa6760d37a831467f8f451a859d6d355467056e5c0dd59d1351d6d7e1",
+   "tracked": false
+  },
+  {
+   "path": "source-reconstructed-research/RiVaL_complete_research_export.zip",
+   "bytes": 17373,
+   "mtime": "2026-10-30T01:18:08+00:00",
+   "sha256": "503e45f8f1db681d0067595f899fbc8b719594f65472d44b5b4b51d741565e3c",
+   "tracked": false
+  },
+  {
+   "path": "source-share-conversation/.DS_Store",
+   "bytes": 6148,
+   "mtime": "2026-10-30T02:56:58+00:00",
+   "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+   "tracked": false
+  },
+  {
+   "path": "source-share-conversation/making-of-RiVaL.html",
+   "bytes": 115045,
+   "mtime": "2026-10-30T01:46:42+00:00",
+   "sha256": "aa58b88a7d40589501536ae87a5baf3ef7259e7b3a7174b4665d65eb4e7f869c",
+   "tracked": false
+  },
+  {
+   "path": "source-share-conversation/making-of-RiVaL.json",
+   "bytes": 1567242,
+   "mtime": "2026-10-30T01:46:29+00:00",
+   "sha256": "410e63dbaf5576435297f96b76c75e7a61d8fc9b81a29d08e40d095daf6bc5e8",
+   "tracked": false
+  },
+  {
+   "path": "source-share-conversation/making-of-RiVaL.md",
+   "bytes": 74032,
+   "mtime": "2026-10-30T01:46:38+00:00",
+   "sha256": "92c29955ba1ba221069c7bf728e5a186f1b2885bf63f322e201a024f47b874ae",
+   "tracked": false
+  },
+  {
+   "path": "transcript/RiVaL-disclosed-dialogue.md",
+   "bytes": 174871,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "c858e49aa60db17139b32d5377218b99a68e1ab44eb7ba54ffe204a0e0aa6853",
+   "tracked": false
+  },
+  {
+   "path": "transcript/RiVaL-disclosed-records.json",
+   "bytes": 848565,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "27ce55e1bd748bc4ca653b62b76c6b413e8be4722813a73c3fdcba2b4fa49bc7",
+   "tracked": false
+  },
+  {
+   "path": "transcript/coverage.json",
+   "bytes": 1096,
+   "mtime": "2026-10-30T02:28:22+00:00",
+   "sha256": "87a2e528f190b5fd29deb03f469f712ab9534a415318d7149182bf4f6008ff7b",
+   "tracked": false
+  }
+ ]
+}

@@ -67,3 +67,9 @@ build/
 *.tar.gz
 *.7z
 *.log
+
+# --- Worktree "what was / what is to be": tracked reference, not the referenced files ---
+!WAS-AND-TO-BE.md
+!outside-reference.py
+!reference/
+!reference/*.json
