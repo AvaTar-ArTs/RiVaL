@@ -80,3 +80,34 @@ never replaced: a revision adds a new file or artboard beside the old one.
 ### Not changed
 - The repo's README, PHILOSOPHY, ARCHITECTURE and research docs are left as they were.
   `rival-design/docs/2026-10-29-three-way-comparison.md` lists what the owner may want to revise there.
+
+## 2026-10-29 (worktree `worktree-rival-coverart`: what was / what is to be)
+
+### Added
+- `WAS-AND-TO-BE.md`: the worktree as a hallway. It holds a timeline of what was (accidents kept)
+  and the owner decisions still open.
+- `outside-reference.py` and `reference/outside-manifest-2026-10-29.json`: a hashed reference
+  (path, bytes, mtime, SHA-256) to the 116 files in `~/RiVaL` that git does not hold. It records
+  file names only; no contents are copied.
+- `coverart-arcana/`: three RiVaL covers in the visual language of the owner's Canva work
+  (night sky, gold sacred geometry, spaced serif titles with ✦, water reflection, eye sigil,
+  choTaKu credit). Each is built from SVG and type only, with no generated images.
+  - **Vesica**: equal blue and ember circles in a flower of life, under "EQUAL ✦ OPPOSITE".
+  - **Reflection**: RiVaL mirrored in water, with a blue beam and an ember beam meeting on the horizon.
+  - **The One in the Coat**: a tarot card with an arch, a hallway, stairs, a coated figure and a sun-crown halo.
+  - The v1 renders are kept. In v1, Cinzel Decorative forced all capitals (losing RiVaL /
+    choTaKu) and the glow filters were clipped into squares. v2 uses Cinzel's small capitals and
+    full-canvas filter regions.
+  - `build-arcana.py` builds the covers and `render.py` renders them at 3000×3000. Neither overwrites existing files.
+
+### Changed
+- `.gitignore`: allowlists the files above. The reference rule is narrowed to
+  `reference/outside-manifest-*.json` so it cannot re-include secret-shaped JSON.
+
+### Tooling (outside the repo)
+- `~/.local/bin/chrome-shot`: a headless-Chrome HTML→PNG wrapper with a plain command name, because
+  worktree-isolated sessions refuse quoted executable paths that contain spaces.
+
+### Not changed
+- The `~/RiVaL/rival-coverart/` covers (Seam, Opposites, Collision, Rooms) stay local and untracked.
+- `Arcana-3-coat-v2-3000-v2.png` is a duplicate left by the wrapper test. It is kept until the owner decides.
