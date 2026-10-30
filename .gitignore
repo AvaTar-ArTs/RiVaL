@@ -1,0 +1,51 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*token*.json
+*auth*.json
+
+# Local runtime and personal agent state
+Cindy/
+CindyGlobal/
+**/Application Support/Cindy/
+**/Application Support/CindyGlobal/
+**/memories/
+**/codex-home/
+**/claude-code/
+**/pi-agent-home/
+**/.runtime-skills/
+**/nightly-learning.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.bak
+*.bak.*
+
+# Python / Node / editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local exports and archives: review explicitly before committing
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.log
